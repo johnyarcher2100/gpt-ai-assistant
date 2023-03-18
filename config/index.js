@@ -23,7 +23,7 @@ const config = Object.freeze({
   HUMAN_INIT_PROMPT: env.HUMAN_INIT_PROMPT || '',
   BOT_NAME: env.BOT_NAME || '棉花貓',
   BOT_INIT_PROMPT: env.BOT_INIT_PROMPT || '',
-  BOT_TONE: env.BOT_TONE || '聰明機伶的',
+  BOT_TONE: env.BOT_TONE || '聰明機伶',
   BOT_DEACTIVATED: env.BOT_DEACTIVATED === 'true' || false,
   ERROR_MESSAGE_DISABLED: env.ERROR_MESSAGE_DISABLED === 'true' || /** @deprecated */ env.ERROR_TIMEOUT_DISABLED === 'true' || false,
   VERCEL_ENV: env.VERCEL_ENV || null,
